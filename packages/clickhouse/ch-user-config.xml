@@ -12,6 +12,9 @@
 
             <!-- should be 2 * NUM_CPU_CORES. Default 16 -->
             <background_pool_size>4</background_pool_size>
+
+	    <!-- should fix #7 https://github.com/railwayapp-templates/plausible/issues/7 -->
+	    <query_plan_optimize_prewhere>0</query_plan_optimize_prewhere>
         </default>
     </profiles>
 </clickhouse>
